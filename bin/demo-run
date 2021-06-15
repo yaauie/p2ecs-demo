@@ -9,7 +9,7 @@ show() {
     echo "--------------------------------"
     echo "${body}"
     echo "--------------------------------"
-  ) | less --chop-long-lines
+  ) | less --chop-long-lines --QUIET
 }
 
 clear
