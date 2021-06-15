@@ -1,0 +1,7 @@
+# DEMO-CONFIG is meant to be sourced by `.envrc`
+
+## Export a LOGSTASH_HOME that points to a local Logstash installation.
+# export LOGSTASH_HOME="${PWD}/logstash-7.13.1"
+
+## Undefine JAVA_HOME to run Logstash using its bundled JDK
+# export JAVA_HOME=

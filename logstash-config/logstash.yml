@@ -1,0 +1,1 @@
+pipeline.ecs_compatibility: "${LOGSTASH_PIPELINE_ECS_COMPATIBILITY:disabled}"

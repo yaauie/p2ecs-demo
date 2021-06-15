@@ -1,1 +1,0 @@
-highlight -O xterm256 "${DEMO_CONFIG_PATH:?}" | less -R
