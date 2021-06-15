@@ -1,0 +1,3 @@
+# DEMO: LISTEN ON TCP PORT AND PIPE TO JQ
+>&2 echo "Listening on port ${DEMO_PORT:?DEMO_PORT}..." 
+nc -lk localhost ${DEMO_PORT:?DEMO_PORT} | jq --color-output --unbuffered '.'

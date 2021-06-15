@@ -1,0 +1,1 @@
+"${LOGSTASH_HOME}/bin/logstash" --path.config "${DEMO_CONFIG_PATH:?}" < "${DEMO_INPUT_PATH:?}"

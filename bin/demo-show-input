@@ -1,0 +1,1 @@
+less -R "${DEMO_INPUT_PATH:?}"
